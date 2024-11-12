@@ -1,0 +1,63 @@
+.product_flex{
+
+    font-family: var(--font-family);
+    cursor: pointer;
+
+}
+
+.product_flex h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 60px;
+    letter-spacing: -0.04em;
+}
+
+.flex-p
+{
+ font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+color: var(--color-text);
+
+margin-top: 0.5rem;
+}
+.flex-img{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+.flex-cart h5{
+    font-family: var(--font-family);
+    font-size: 23px;
+    font-weight: 800;
+    cursor: pointer;
+    color: #280d5f;
+}
+
+.a-flex{
+    font-family: var(--font-family);
+    color: #280d5f;
+    font-size: 18px;
+    font-weight: 500;
+
+
+
+}
+.p-flex{
+    font-family: var(--font-family);
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.flex-cart:hover{
+    .a-flex{
+        color:#3bd9e4;
+
+    }
+}
+
+.box-shaw{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}

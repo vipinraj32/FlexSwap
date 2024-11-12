@@ -1,0 +1,126 @@
+.swap-form-container {
+    width: 300px;
+    background-color: #f6f8fb;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .swap-form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  .settings-icon {
+    cursor: pointer;
+  }
+  
+  .swap-form-content {
+    margin-top: 15px;
+  }
+  
+  .swap-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .swap-box {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    width: 45%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .swap-label {
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .swap-token {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  .token-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+  
+  .token-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .token-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .network {
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .swap-arrow {
+    font-size: 20px;
+    color: #666;
+  }
+  
+  .amount-section {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 15px;
+    text-align: left;
+    position: relative;
+  }
+  
+  .amount-label {
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .amount-value {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .balance {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .enter-amount-btn {
+    width: 100%;
+    background-color: #cfcfcf;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  
+  .enter-amount-btn:hover {
+    background-color: #b0b0b0;
+  }
+  

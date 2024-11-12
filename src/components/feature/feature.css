@@ -1,0 +1,52 @@
+.flex-p
+{
+ font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+color: var(--color-text);
+
+margin-top: 0.5rem;
+}
+
+.box1{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-image: url('../../assest/trustles_bg.webp');
+    
+    background-attachment: fixed;    
+    height: 300px;
+    width: 80%;
+    margin-bottom: 1rem;
+    font-family: var(--font-family);
+}
+
+.box2{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-image: url('../../assest/onestop_bg.webp');
+  background-attachment: fixed;
+  
+  background-attachment: fixed;    
+  height: 300px;
+  width: 80%;
+  margin-bottom: 1rem;
+  font-family: var(--font-family);
+}
+  
+  .box img{
+    height: 100px;
+    max-width:  180px;
+   
+  }
+
+  .box {
+    font-family: var(--font-family);
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-top: 1rem;
+  }
+
+  .box-p{
+    font-family: var(--font-family);
+    font-size: 17px ;
+  }

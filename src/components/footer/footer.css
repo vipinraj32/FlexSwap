@@ -1,0 +1,28 @@
+.footer-flex{
+    margin-top: 5rem;
+    background-image: url('../../assest/footer-light-bg.png');
+    background-repeat: repeat-x;
+}
+
+.flex-h5{
+    color:  #1fc7d4;
+    font-family: var(--font-family);
+
+}
+
+.p-flex{
+    font-family: var(--font-family);
+    font-size: 15px;
+    padding-top: 10px ;
+    margin-top: 10px;
+}
+
+.li-p{
+    font-family: var(--font-family);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.li-p:hover li:hover    { 
+    color: #1fc7d4;
+}

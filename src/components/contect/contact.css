@@ -1,0 +1,16 @@
+.contract-flex{
+    font-family: var(--font-family);
+    font-size: 45px;
+    font-weight: 800;
+}
+.span-flex{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+}
+
+.input-flex{
+    border: 1px black;
+}
+
