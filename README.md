@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# FlexSwap
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+FlexSwap is a decentralized exchange (DeEx) built to provide seamless and efficient cross-chain trading with enhanced liquidity aggregation and security. It leverages chain abstraction to simplify the trading experience, ensuring users can swap assets across multiple blockchain networks without complexity.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Cross-Chain Trading**: Enables asset swaps across different blockchain networks using chain abstraction.
+- **Decentralized Liquidity Aggregation**: Aggregates liquidity from various sources for better price execution.
+- **Fast and Low-Cost Transactions**: Optimized for minimal gas fees and high-speed transactions.
+- **Secure and Trustless**: Operates without intermediaries, ensuring user fund security.
+- **User-Friendly Interface**: Simple and intuitive UI for seamless trading.
+- **Integration with Solana & EVM-Compatible Chains**: Supports multiple blockchain ecosystems.
 
-### `npm start`
+## How Chain Abstraction Improves FlexSwap
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+FlexSwap utilizes chain abstraction to:
+- Eliminate the need for manual network switching.
+- Provide a unified trading experience across multiple chains.
+- Reduce transaction delays and improve scalability.
+- Enhance interoperability between different blockchain ecosystems.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Prerequisites
+Ensure you have:
+- A Web3-enabled wallet (e.g., Phantom, MetaMask, or Solflare).
+- Sufficient cryptocurrency balance for transactions.
+- A supported browser (Chrome, Brave, or Firefox) for the best experience.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation & Setup
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/FlexSwap.git
+   cd FlexSwap
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Start the local development server:
+   ```sh
+   npm run dev
+   ```
+4. Open your browser and navigate to `http://localhost:3000`.
 
-### `npm run build`
+## Usage
+1. Connect your Web3 wallet.
+2. Select the asset and blockchain network.
+3. Choose the token to swap and confirm the transaction.
+4. Wait for transaction confirmation and receive swapped assets.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Smart Contract & Blockchain Details
+FlexSwap is deployed on:
+- **Solana** for high-speed, low-fee transactions.
+- **Ethereum & EVM-compatible chains** for broader asset support.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Smart Contract Repositories
+- Solana Program: [GitHub Link]
+- Ethereum Smart Contracts: [GitHub Link]
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Roadmap
+- [ ] Launch Beta Version
+- [ ] Add More EVM & Non-EVM Chains
+- [ ] Implement AI-Powered Trade Optimization
+- [ ] Governance & DAO Integration
 
-### `npm run eject`
+## Contribution
+We welcome contributions! To contribute:
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature-branch`
+3. Commit changes and push: `git push origin feature-branch`
+4. Submit a pull request.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## License
+This project is licensed under the MIT License.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contact
+For queries and support, contact:
+- **Twitter**: [@FlexSwap](https://twitter.com/FlexSwap)
+- **Discord**: [Join Our Community](https://discord.gg/FlexSwap)
+- **Email**: support@flexswap.com
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+FlexSwap - Making Decentralized Trading Effortless!
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
